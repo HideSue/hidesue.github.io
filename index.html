@@ -4,37 +4,58 @@
     <meta charset="utf-8">
     <title>Sue</title>
     <link rel="stylesheet" href="index.css">
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    <!--<a href="hm1/project1.html">第一次作业</a>-->
+
+    <!-- header图片及标题 -->
     <div class="header_bar">
       <h1>作业</h1>
     </div>
+
+    <!-- 一条分割线 -->
     <div class="nav_bar">
       <p>一 条 华 丽 的 分 割 线 >_<</p>
     </div>
+
+    <!-- 内容 -->
     <div class="content">
-      <div class="content_left">
-        <div class="img_head">
-          <img src="head.jpg" alt="head">
+
+      <div class="sidenav visible">
+        <div class="list">
+          <a href="javascript:void(0)" onclick="about()" style="cursor: pointer;">关于</a>
+          <a href="javascript:void(0)" onclick="hw()" style="cursor: pointer">作业</a>
+          <a href="javascript:void(0)" onclick="other()" style="cursor: pointer">其他</a>
         </div>
+      </div>
+
+      <div class="content_right has_info">
+        <div class="">
+          <span class="btn" style="font-size: 30px; cursor: pointer" onclick="nav()"></span>
+        </div>
+
         <div class="info">
-          <p>姓名：苏梓扬</p>
-          <br>
+          <img src="head_background.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;">
+          <p>姓名: 苏梓扬</p>
+          <hr>
           <p>学号：2017053579</p>
-          <br>
-          <p>学院：国际学院</p>
-          <br>
-          <p>专业：计算机科学技术</p>
         </div>
+
+
+        <!-- <div class="hw">
+            <img src="first.PNG" alt="" style="width: 100px; height: 130px; display: inline; float: left">
+          <div class="word" style="overflow: hidden; margin-right: 0; text-align: center;">
+            <<address class="">
+
+            </address> href="hm1/project1_1.html">Project 1</a>
+            <a href="hm1/project1_1.html">Project 2</a>
+            <time style="font-size: 22px;">2019-9-21</time>
+          </div>
+        </div> -->
       </div>
-      <div class="content_right">
-        <div class="hm1">
-          <a href="hm1/project1_1.html"><b>Project 1</b></a>
-          <a href="hm1/project1_2.html"><b>Project 2</b></a>
-          <b>2019-9-15</b>
-        </div>
-      </div>
+
     </div>
+
   </body>
 </html>
