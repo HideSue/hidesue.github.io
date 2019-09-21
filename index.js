@@ -49,7 +49,7 @@ function hw() {
     "<img src='first.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
     "<div class='word' style='overflow: hidden; margin-right: 0; text-align: center;'>"+
     "<a target='_blank' href='hm1/project1_1.html'>Project 1</a>"+
-    "<a target='_blank' href='hm1/project1_1.html'>Project 2</a>"+
+    "<a target='_blank' href='hm1/project1_2.html'>Project 2</a>"+
     "<time style='font-size: 22px;'>2019-9-21</time>"+
     "</div>"+
     "</div>";

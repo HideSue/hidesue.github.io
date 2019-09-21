@@ -66,10 +66,6 @@ h1 {
   color: rgb(34, 196, 143);
 }
 
-span::before {
-  content: "\039E";
-}
-
 .content_right {
   padding: 0 25px;
   overflow: hidden;
