@@ -7,7 +7,7 @@ html, body, .content {
 }
 
 .header_bar {
-  background-image: url("head_background.jpg");
+  background-image: url("index_icon/back.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 80px;
@@ -94,8 +94,8 @@ h1 {
 
 .hw {
   background: #fff;
-  margin: 40px 40px 30px 0px;
-  display: block;
+  margin: 40px 20px 20px 0px;
+  display: inline-block;
   width: 240px;
   height: 135px;
   padding:20px;
