@@ -35,12 +35,12 @@ function about() {
       $('.other').remove();
     }
 
-    var info = "<div class='info'>"+
-    "<img src='index_icon/head_background.jpg' alt='' style='width: 100px; height: 100px; border-radius: 50%;'>"+
-    "<p>姓名: 苏梓扬</p>"+
-    "<hr>"+
-    "<p>学号：2017053579</p>"+
-    "</div>";
+    var info = '<div class="info">'+
+    '<div class="box box1"><div class="name"><h4>姓名</h4><h5>苏梓扬</h5></div><p>Hello!&nbsp;&nbsp;</p></div>'+
+    '<div class="box box2"><div class="name"><h4>学号</h4><h5>2017053579</h5></div><p>Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>'+
+    '<div class="box box3"><div class="name"><h4>班级</h4><h5>CST</h5></div><p>College</p></div>'+
+    '<div class="box box4"><div class="name"><h4>邮箱</h4><h5>794075398@qq.com</h5></div><p>Mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>'+
+    '</div>';
     right.addClass('has_info');
     right.append(info);
   }
@@ -67,7 +67,7 @@ function hw() {
     "</div>"+
     "</div>"+
     "<div class='hw'>"+
-    "<img src='index_icon/first.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
+    "<img src='index_icon/second.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
     "<div class='word' style='margin-right: 0; text-align: center; float: left; padding-left: 10px;'>"+
     "<a><b>Chapter 3</b></a>"+
     "<a target='_blank' href='chapter03/html/project01.html'>Project 1</a>"+
