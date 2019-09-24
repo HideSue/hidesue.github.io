@@ -10,6 +10,18 @@ function nav() {
   }
 }
 
+function nav2() {
+  var left = $('.sidenav');
+
+  if (!(left.hasClass('visible'))) {
+    left.addClass('visible');
+    left.css('height', '182px');
+  } else {
+    left.removeClass('visible');
+    left.css('height', '0');
+  }
+}
+
 function about() {
   var right = $('.content_right');
 

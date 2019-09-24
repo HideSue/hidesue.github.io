@@ -2,25 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sue</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index_for_mobile.css" media="screen and (max-width: 700px)">
+    <link rel="stylesheet" href="index.css" media="screen and (min-width: 700px)">
     <script src="jquery.min.js"></script>
     <script src="index.js"></script>
   </head>
   <body>
 
     <!-- header图片及标题 -->
-    <div class="header_bar">
+    <header>
       <h1>作业</h1>
-    </div>
+    </header>
 
     <!-- 一条分割线 -->
-    <div class="nav_bar">
+    <nav class="nav_bar">
       <p>一 条 华 丽 的 分 割 线 >_<</p>
-    </div>
+    </nav>
 
     <!-- 内容 -->
     <div class="content">
+
+      <div class="for_mobile" style="text-align: center; background: #f9f7f6;">
+        <span class="btn" style="font-size: 30px; cursor: pointer" onclick="nav2()">&#9776;</span>
+      </div>
 
       <div class="sidenav visible">
         <div class="list">
@@ -31,7 +37,7 @@
       </div>
 
       <div class="content_right has_info">
-        <div class="">
+        <div class="for_desktop">
           <span class="btn" style="font-size: 30px; cursor: pointer" onclick="nav()">&#9776;</span>
         </div>
 
