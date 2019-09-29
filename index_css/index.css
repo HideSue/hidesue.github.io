@@ -1,9 +1,13 @@
-html, body, .content {
+html, body{
   height: 100%;
   width: 100%;
   margin: 0px;
   border: 0px;
   font-family: sans-serif;
+}
+
+.content {
+  display: flex;
 }
 
 header {
@@ -37,8 +41,8 @@ nav p {
 }
 
 .sidenav {
-  height: 100%;
   width: 300px;
+  flex-grow: 0;
   float: left;
   white-space: nowrap;
   overflow-x: hidden;
@@ -83,6 +87,7 @@ ul li {
   padding: 0 25px;
   overflow: hidden;
   height: 100%;
+  flex: 1;
 }
 .content_right p {
   font-size: 25px;

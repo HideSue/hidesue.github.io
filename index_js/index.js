@@ -15,7 +15,7 @@ function nav2() {
 
   if (!(left.hasClass('visible'))) {
     left.addClass('visible');
-    left.css('height', '182px');
+    left.css('height', '190px');
   } else {
     left.removeClass('visible');
     left.css('height', '0');
@@ -57,7 +57,7 @@ function hw() {
       right.removeClass('has_other');
       $('.other').remove();
     }
-    var hw = "<div class='hw'>"+
+    var hw = "<span class='hw'>"+
     "<img src='index_icon/first.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
     "<div class='word' style='margin-right: 0; text-align: center; float: left; padding-left: 10px;'>"+
     "<a><b>Chapter 2</b></a>"+
@@ -65,8 +65,8 @@ function hw() {
     "<a target='_blank' href='chapter02/project02.html'>Project 2</a>"+
     "<time style='font-size: 22px;'>2019-9-21</time>"+
     "</div>"+
-    "</div>"+
-    "<div class='hw'>"+
+    "</span>"+
+    "<span class='hw'>"+
     "<img src='index_icon/second.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
     "<div class='word' style='margin-right: 0; text-align: center; float: left; padding-left: 10px;'>"+
     "<a><b>Chapter 3</b></a>"+
@@ -74,7 +74,7 @@ function hw() {
     "<a target='_blank' href='chapter03/html/project03.html'>Project 3</a>"+
     "<time style='font-size: 22px;'>2019-9-21</time>"+
     "</div>"+
-    "</div>";
+    "</span>";
     right.addClass('has_hw');
     right.append(hw);
   }
