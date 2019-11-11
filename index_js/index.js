@@ -74,7 +74,16 @@ function hw() {
     "<a target='_blank' href='chapter03/html/project03.html'>Project 3</a>"+
     "<time style='font-size: 22px;'>2019-9-21</time>"+
     "</div>"+
-    "</span>";
+    "</span>"+
+    "</span>"+
+    "<span class='hw'>"+
+    "<img src='index_icon/project2.PNG' alt='' style='width: 100px; height: 130px; display: inline; float: left;'>"+
+    "<div class='word' style='margin-right: 0; text-align: center; float: left; padding-left: 10px;'>"+
+    "<a><b>Project2</b></a>"+
+    "<a target='_blank' href='project2/html/main.html'>Weather and Map</a>"+
+    "<time style='font-size: 22px;'>2019-11-11</time>"+
+    "</div>"+
+    "</span>";;
     right.addClass('has_hw');
     right.append(hw);
   }
