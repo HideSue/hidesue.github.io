@@ -1,0 +1,61 @@
+.content_right {
+  background-image: url("../index_icon//SheepCoteClod.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding: 15px 15px 0 15px;
+  height: 100%;
+}
+
+.content_right p {
+  font-size: 25px;
+}
+  
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hw {
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 175px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width:700px) {
+  .hw {
+    margin: auto;
+    margin-top: 15px;
+    animation: move 1s ease;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.hw img {
+  width: 100px;
+  height: 175px;
+}
+
+.details {
+  display: inline;
+  position: absolute;
+  margin: 20px;
+  padding: 5px;
+  text-align: end;
+}
+
+.hw a {
+  display: block;
+} 

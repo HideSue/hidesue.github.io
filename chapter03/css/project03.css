@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url("../../index_icon/back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card1 {
+  background-color: #ffffff;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 20%;
+}
+
+.notice, span {
+  display: inline;
+  font-family: 'Six Caps';
+  font-size: 45px;
+}
+
+span {
+  font-size: 50px;
+}
+
+.card1_first_row {
+  padding-left: 20px;
+}
+
+.card2 {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  background-color: #ffffff;
+  width: 400px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.first_row {
+  height: 25%;
+  background: rgba(242, 241, 241, 0.5);
+  padding: 15px 0 0 10px;
+  font-weight: 1000;
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.second_row {
+  height: 50%;
+}
+
+.second_one_row {
+  padding: 10px;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.second_two_row {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  padding: 15px;
+  width: 65%;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.third_row {
+  font-size: 18px;
+  height: 25%;
+  background: rgb(255, 255, 255);
+}
+
+.third_row p {
+  padding: 15px 0 0 10px;
+}
+
+hr {
+  margin-left: 10px;
+  width: 30%;
+  border: 0;
+  border-top: 1px dashed rgb(0, 0, 0);
+}
